@@ -1,16 +1,13 @@
-# state_bn_bar
+## State Management With Bottom Navigation Bar
 
-A new Flutter project.
+We all have used Bottom Navigation Bars in our project , but sometimes we overlook state management. By state management i mean having a persistent state during a transition to other pages using the bottom bar.
+So when you get back to the initial page , the screen will be as it was when you left.
 
-## Getting Started
+To make things clear heres a small gif on how the app works.
 
-This project is a starting point for a Flutter application.
+![](./screen.gif)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Here , as you can see , we have successfully maintained the state of the variable counter during the tranisition to the other page.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The two pages can be two different screens with even different scaffolds !!
