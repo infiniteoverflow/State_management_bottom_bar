@@ -5,8 +5,7 @@ So when you get back to the initial page , the screen will be as it was when you
 
 To make things clear heres a small gif on how the app works.
 
-![](./screen.gif)
-
+<img src="./screen.gif" height=400, width=200/>
 
 Here , as you can see , we have successfully maintained the state of the variable counter during the tranisition to the other page.
 
